@@ -1,0 +1,5 @@
+metro = float(input('Digite um valor em Metro(s): '))
+cen = (metro * 100)
+mili = (metro * 1000)
+print('{} metros convertido para centímetro => {:.0f} cm'.format(metro, cen))
+print('{} metros convertido para milímetro => {:.0f} mm'.format(metro, mili))
