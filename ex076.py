@@ -1,0 +1,8 @@
+tupla = ('Lápis', 1.75, 'Borracha', 2.00, 'Caderno', 15.90, 'Estojo', 25.00, 'Transferidor', 4.20, 'Compasso', 9.90)
+print('-'*50)
+print('                LISTAGEM DE PREÇOS')
+print('-'*50)
+print(f'{tupla[0]}..........................R$ {tupla[1]}')
+print(f'{tupla[2]}.......................R$ {tupla[3]}')
+print(f'{tupla[4]}........................R$ {tupla[5]}')
+print('-'*50)
